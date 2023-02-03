@@ -45,7 +45,7 @@ const FeaturesTiles = ({
   const sectionHeader = {
     title: "Technologies",
     paragraph:
-      "Technologies used in various projects include: JavaScript, HTML, CSS, React, React Native, Vercel, Heroku, Express, PostgreSQL, Node.JS, Ruby on Rails, Bootstrap, and always looking for the next tool to learn.",
+      "Technologies used in various projects include: JavaScript, TypeScript, HTML, CSS, React, React Native, Angular, Vercel, Heroku, Express, PostgreSQL, Node.JS, C#, Ruby on Rails, Bootstrap, and always looking for the next tool to learn.",
   };
 
   return (
@@ -58,6 +58,29 @@ const FeaturesTiles = ({
             id="Technologies"
           />
           <div className={tilesClasses}>
+
+            <div
+              className="tiles-item reveal-from-bottom"
+              data-reveal-delay="200"
+            >
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                      src={require("./../../assets/images/Javascript-logo.png")}
+                      alt="Features tile icon 02"
+                      width={64}
+                      height={64}
+                    />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">Java Script</h4>
+                  <p className="m-0 text-sm"></p>
+                </div>
+              </div>
+            </div>
+
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
@@ -85,7 +108,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require("./../../assets/images/Javascript-logo.png")}
+                      src={require("./../../assets/images/ruby.png")}
                       alt="Features tile icon 02"
                       width={64}
                       height={64}
@@ -93,7 +116,67 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">Java Script</h4>
+                  <h4 className="mt-0 mb-8">Ruby</h4>
+                  <p className="m-0 text-sm"></p>
+                </div>
+              </div>
+            </div>
+
+            <div className="tiles-item reveal-from-bottom">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className=" mb-16">
+                    <Image
+                      src={require("./../../assets/images/angular-icon-logo.png")}
+                      alt="Features tile icon 01"
+                      width={64}
+                      height={64}
+                    />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">Angular</h4>
+                  <p className="m-0 text-sm"></p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="tiles-item reveal-from-bottom"
+              data-reveal-delay="200"
+            >
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                      src={require("./../../assets/images/c-sharp.png")}
+                      alt="Features tile icon 02"
+                      width={64}
+                      height={64}
+                    />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">C#</h4>
+                  <p className="m-0 text-sm"></p>
+                </div>
+              </div>
+            </div>
+
+            <div className="tiles-item reveal-from-bottom">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className=" mb-16">
+                    <Image
+                      src={require("./../../assets/images/type-script.png")}
+                      alt="Features tile icon 01"
+                      width={64}
+                      height={64}
+                    />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">TypeScript</h4>
                   <p className="m-0 text-sm"></p>
                 </div>
               </div>
