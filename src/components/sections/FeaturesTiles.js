@@ -68,7 +68,7 @@ const FeaturesTiles = ({
                   <div className="features-tiles-item-image mb-16">
                     <Image
                       src={require("./../../assets/images/Javascript-logo.png")}
-                      alt="Features tile icon 02"
+                      alt="JavaScript Icon"
                       width={64}
                       height={64}
                     />
@@ -87,7 +87,7 @@ const FeaturesTiles = ({
                   <div className=" mb-16">
                     <Image
                       src={require("./../../assets/images/React-icon.svg.png")}
-                      alt="Features tile icon 01"
+                      alt="React Icon"
                       width={64}
                       height={64}
                     />
@@ -128,7 +128,7 @@ const FeaturesTiles = ({
                   <div className=" mb-16">
                     <Image
                       src={require("./../../assets/images/angular-icon-logo.png")}
-                      alt="Features tile icon 01"
+                      alt="Angular Icon"
                       width={64}
                       height={64}
                     />
@@ -169,7 +169,7 @@ const FeaturesTiles = ({
                   <div className=" mb-16">
                     <Image
                       src={require("./../../assets/images/type-script.png")}
-                      alt="Features tile icon 01"
+                      alt="Typscript Icon"
                       width={64}
                       height={64}
                     />
@@ -240,6 +240,50 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">CSS3</h4>
+                  <p className="m-0 text-sm"></p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="tiles-item reveal-from-bottom"
+              data-reveal-delay="200"
+            >
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="mb-16">
+                    <Image
+                      src={require("./../../assets/images/python.png")}
+                      alt="Python logo"
+                      width={64}
+                      height={64}
+                    />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">Python</h4>
+                  <p className="m-0 text-sm"></p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="tiles-item reveal-from-bottom"
+              data-reveal-delay="200"
+            >
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="mb-16">
+                    <Image
+                      src={require("./../../assets/images/mongo2.png")}
+                      alt="mongodb leaf logo"
+                      width={64}
+                      height={64}
+                    />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">MongoDB</h4>
                   <p className="m-0 text-sm"></p>
                 </div>
               </div>

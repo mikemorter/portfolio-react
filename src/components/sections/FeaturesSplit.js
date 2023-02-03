@@ -69,15 +69,15 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  React App
+                  JavaScript | React | Ruby
                 </div>
-                <h3 className="mt-0 mb-12">Decoder Ring</h3>
+                <h3 className="mt-0 mb-12">My Right Horse</h3>
                 <p className="m-0">
-                  This application showcases the tests and algorithms that I
-                  wrote for a surprise birthday party for a friend who loves
-                  escape rooms. I was able to write three different ciphers for
-                  the escape room. Try it out{" "}
-                  <a href="https://mikemorter.github.io/Project_Decoder_Ring_1/">
+                  My Right Horse is an amazing organization that allows people to adopt horses.
+                  I was able to create the ability for users to make adopter accounts and favorite
+                  their favorite horses. This allows users to have a better experience and helps
+                  horses to be adoped quicker.{" "}
+                  <a href="https://www.myrighthorse.org/">
                     here
                   </a>
                   .
@@ -91,11 +91,11 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <Image
-                  src={require("./../../assets/images/DecoderRing1.png")}
+                  src={require("./../../assets/images/MRH.png")}
                   alt="Features split 02"
                   width={528}
                   height={396}
-                  href="https://mikemorter.github.io/Project_Decoder_Ring_1/"
+                  href="https://www.myrighthorse.org/"
                 />
               </div>
             </div>
@@ -106,16 +106,16 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  React App
+                  JavaScript | React | Ruby
                 </div>
-                <h3 className="mt-0 mb-12">Pomodoro Timer</h3>
+                <h3 className="mt-0 mb-12">Homer Energy</h3>
                 <p className="m-0">
-                  The Pomodor Timer is an app where users can create times for
-                  focusing and times for breaks. Based on the Pomodoro
-                  Technique, users are able to assign certain time lengths for
-                  both the focus period and the break period. You can check out
-                  the deployed app{" "}
-                  <a href="https://pomodoro-timer-beige-chi.vercel.app/">
+                  Homer Energy is a wonderful company that helps to make hybrid power systems
+                  technically optimal and maximally cost-effective. I was able to create the ability
+                  to add, delete, and update modules on the admin and user user side. This solved
+                  many bugs and allowed the company the ability to be flexible and customer focused.
+                  You can find a link to the website{" "}
+                  <a href="https://www.homerenergy.com/">
                     here
                   </a>
                   .
@@ -129,7 +129,7 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <Image
-                  src={require("./../../assets/images/PomTimer.png")}
+                  src={require("./../../assets/images/homer-energy.png")}
                   alt="Features split 03"
                   width={528}
                   height={396}
@@ -142,18 +142,15 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  React App
+                  JavaScript | React | Express
                 </div>
-                <h3 className="mt-0 mb-12">Restaurant Reservation System</h3>
+                <h3 className="mt-0 mb-12">GameTree</h3>
                 <p className="m-0">
-                  This application was made for my capstone project for Thinkful
-                  Flex Software Engineering course. It is a reservation system
-                  and table manager to be used to track reservations as well as
-                  seat reservations to tables while updating their progress. The
-                  entire application was made to meet various user stories that
-                  the Thinkful course defined. The project's base code and
-                  assignments can be viewed on its GitHub repository{" "}
-                  <a href="https://github.com/mikemorter/restaurantreservation">
+                  Gametree is an application that links gamers. One of the features that I
+                  implimented was the ability to login with discord. This application is accesible
+                  thorugh an application called Overwolf as well as the web and it required multiple
+                  implementations. You can find the applciation{" "}
+                  <a href="https://gametree.me/app/">
                     here
                   </a>
                   .
@@ -167,12 +164,12 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <Image
-                  src={require("./../../assets/images/DashboardRest.png")}
+                  src={require("./../../assets/images/gametree.png")}
                   alt="Features split 01"
                   tag="a"
                   width={528}
                   height={396}
-                  href="https://github.com/mikemorter/restaurantreservation"
+                  href="https://gametree.me/app/"
                 />
               </div>
             </div>
